@@ -1,6 +1,6 @@
 # Big-data-project1
 
-by Divy
+by Divya
 
 #INTRODUCTION
 
@@ -8,14 +8,22 @@ This analyis consists of different types of tools to answer the questions  for d
 There are a different types of  questions, answered using Hive and MapReduce. 
 The tools used are determined based on the context for each question. 
 
+
+
 #TECHNOLOGIES USED
 
 HADOOP
+
 HIVE
+
 MAPREDUCE
+
 TEZ
+
 PYTHON
+
 GIT
+
 
 
 PROBLEM STATEMENTS:
