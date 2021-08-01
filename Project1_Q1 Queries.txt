@@ -1,0 +1,45 @@
+Create external table data (lang string, search string, visit int, deli int)
+row format delimited
+fields terminated by ' '
+location "/user/raj_ops/DataEng";
+
+====================================
+LOAD DATA INPATH '/user/raj_ops/DataEng/formated_00.txt' INTO TABLE data;
+==============================================================
+select * from data;
+===================================
+select * from data 
+where visit>10000 
+ORDER BY visit desc;
+====================================
+SELECT search,sum(visit) from data GROUP BY search;
+
+===========
+https://dumps.wikimedia.org/other/pageviews/2021/2021-01/
+=======================
+LOAD DATA INPATH '/tmp/new_format.txt' INTO TABLE data;
+===========================================
+SELECT search, sum(visit) as visits from wiki group by search order by visits desc limit 20;
+=========================
+joe biden
+main....
+=========================
+CREATE TABLE IF NOT EXISTS en_pageview 
+AS SELECT DISTINCT(search), SUM(visit) OVER (PARTITION BY search ORDER BY search)  
+AS total_views FROM data 
+WHERE search != 'Main_Page' AND search != 'Special:Search' AND search != '-';
+======================================================================
+SELECT * FROM en_pageview 
+WHERE total_views > 10000 
+ORDER BY total_views DESC limit 20;
+
+
+
+
+
+
+
+
+
+
+
