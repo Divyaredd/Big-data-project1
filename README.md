@@ -2,7 +2,7 @@
 
 by Divya
 
-#INTRODUCTION
+## INTRODUCTION
 
 This analyis consists of different types of tools to answer the questions  for different datasets from Wikipedia. 
 There are a different types of  questions, answered using Hive and MapReduce. 
@@ -10,7 +10,7 @@ The tools used are determined based on the context for each question.
 
 
 
-#TECHNOLOGIES USED
+## TECHNOLOGIES USED
 
 HADOOP
 
