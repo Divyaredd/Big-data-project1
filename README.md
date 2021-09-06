@@ -54,6 +54,31 @@ QUESTION 5:
 
 Find an example of an English wikipedia article that is relatively more popular in the Americas than elsewhere.
 
+## Getting Started
+
+
+GitHub clone URL: 
+
+* Enable Enable Virtualization in the Computer from bios
+
+* Install virtual box
+
+* Install HDP inside VirtualBox
+
+* Open the Ambari dashboard
+
+* copy file from local computer to HDP scp -p 2222 <FILE> <user>@<ip>:~/
+  
+  
+  
+  ## Usage
+  
+     To run hive command hive -f <FILE.sql>
+  
+  ## Contributors
+  
+  
+
 ## REFERENCE
 
 https://dumps.wikimedia.org/other/pageviews/2021/2021-01/
