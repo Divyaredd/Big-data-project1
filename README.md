@@ -1,6 +1,6 @@
-## Wikipedia Data Analysis
+# Wikipedia Data Analysis
 
-# Project Description
+## Project Description
 
 
 
