@@ -57,9 +57,7 @@ Find an example of an English wikipedia article that is relatively more popular 
 ## Getting Started
 
 
-GitHub clone URL: 
-
-* Enable Enable Virtualization in the Computer from bios
+ * Enable  Virtualization in the Computer from bios
 
 * Install virtual box
 
@@ -87,9 +85,7 @@ GitHub clone URL:
   
   
   
-  
-
-## REFERENCE
+ ## REFERENCE
 
 https://dumps.wikimedia.org/other/pageviews/2021/2021-01/
 
